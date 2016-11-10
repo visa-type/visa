@@ -1,0 +1,36 @@
+{
+  "name": "linkedin",
+  "version": "1.0.0",
+  "description": "A server for Sweet App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "htps://github.com/metao1/visa"
+  },
+  "keywords": [
+    "nodejs",
+    "node"
+  ],
+  "author": "Mehrdad A.Karami",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "cheerio": "^0.22.0",
+    "express": "^4.12.4",
+    "express-ipfilter": "^0.0.24",
+    "fcm-node": "^1.0.15",
+    "morgan": "^1.7.0",
+    "nodemailer": "^1.11.0",
+    "nodemailer-mandrill-transport": "^0.3.0",
+    "nodemailer-stub-transport": "^1.0.0",
+    "request": "^2.75.0"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "browser": {}
+}
